@@ -40,7 +40,7 @@ export const menu: SimpleTranslationEntries = {
   "noRankings": "Nessuna Classifica",
   "loading": "Caricamento…",
   "playersOnline": "Giocatori Online",
-  "evolving": "Cosa?\n{{pokemonName}} si evolvendo!",
+  "evolving": "Cosa?\n{{pokemonName}} si sta evolvendo!",
   "stoppedEvolving": "{{pokemonName}} ha smesso di evolversi.",
   "pauseEvolutionsQuestion": "Vuoi sospendere le evoluzioni per {{pokemonName}}?\nLe evoluzioni possono essere riattivate dalla schermata del party.",
   "evolutionsPaused": "Le evoluzioni sono state sospese per {{pokemonName}}.",
