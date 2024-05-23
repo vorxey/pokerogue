@@ -49,10 +49,10 @@ export const modifierType: ModifierTypeTranslationEntries = {
       description: "Cambia la natura del Pokémon in {{natureName}} e sblocca la natura per il Pokémon iniziale",
     },
     "DoubleBattleChanceBoosterModifierType": {
-      description: "Raddoppia la possibilità di imbattersi in doppie battaglie per {{battleCount}} battaglie",
+      description: "Raddoppia la possibilità di imbattersi in Lotte in Doppio per {{battleCount}} Lotte",
     },
     "TempBattleStatBoosterModifierType": {
-      description: "Aumenta {{tempBattleStatName}} di un livello a tutti i Pokémon nel gruppo per 5 battaglie",
+      description: "Aumenta {{tempBattleStatName}} di un livello a tutti i Pokémon nel gruppo per 5 Lotte",
     },
     "AttackTypeBoosterModifierType": {
       description: "Aumenta la potenza delle mosse di tipo {{moveType}} del 20% per un Pokémon",
@@ -75,7 +75,7 @@ export const modifierType: ModifierTypeTranslationEntries = {
     "MoneyRewardModifierType": {
       description: "Garantisce una {{moneyMultiplier}} quantità di soldi (₽{{moneyAmount}})",
       extra: {
-        "small": "poca",
+        "small": "piccola",
         "moderate": "moderata",
         "large": "grande",
       },
@@ -147,7 +147,7 @@ export const modifierType: ModifierTypeTranslationEntries = {
 
     "SACRED_ASH": { name: "Cenere Magica" },
 
-    "REVIVER_SEED": { name: "Revitalseme", description: "Il possessore recupera 1/2 di PS in caso di svenimento" },
+    "REVIVER_SEED": { name: "Revitalseme", description: "Il possessore recupera la metà dei PS in caso di svenimento" },
 
     "ETHER": { name: "Etere" },
     "MAX_ETHER": { name: "Etere Max" },
@@ -198,13 +198,13 @@ export const modifierType: ModifierTypeTranslationEntries = {
     "HEALING_CHARM": { name: "Curamuleto", description: "Aumenta del 10% l'efficacia delle mosse e degli oggetti che ripristinano i PS (escluse le rianimazioni)" },
     "CANDY_JAR": { name: "Barattolo di caramelle", description: "Aumenta di 1 il numero di livelli aggiunti dalle Caramelle Rare" },
 
-    "BERRY_POUCH": { name: "Porta Bacche", description: "Aggiunge il 33% di possibilità che una bacca usata non venga consumata" },
+    "BERRY_POUCH": { name: "Porta Bacche", description: "Aumenta del 33% la possibilità che una bacca usata non venga consumata" },
 
-    "FOCUS_BAND": { name: "Bandana", description: "Chi ce l'ha ottiene il 10% di possibilità aggiuntivo di evitare un potenziale KO e rimanere con un solo PS" },
+    "FOCUS_BAND": { name: "Bandana", description: "Chi la tiene ha il 10% di possibilità in più di evitare un potenziale KO e rimanere con un solo PS" },
 
-    "QUICK_CLAW": { name: "Rapidartigli", description: "Aggiunge una probabilità del 10% di muoversi per primi, indipendentemente dalla velocità (dopo la priorità)" },
+    "QUICK_CLAW": { name: "Rapidartigli", description: "Aumenta del 10% la probabilità di muoversi per primi, indipendentemente dalla velocità (dopo la priorità)" },
 
-    "KINGS_ROCK": { name: "Roccia di re", description: "Aggiunge il 10% di possibilità che una mossa d'attacco faccia tentennare l'avversario" },
+    "KINGS_ROCK": { name: "Roccia di re", description: "Aumenta del 10% la possibilità che una mossa d'attacco faccia tentennare l'avversario" },
 
     "LEFTOVERS": { name: "Avanzi", description: "Ripristina 1/16 dei PS massimi di un Pokémon ogni turno" },
     "SHELL_BELL": { name: "Conchinella", description: "Guarisce 1/8 del danno inflitto a un Pokémon" },
@@ -230,9 +230,9 @@ export const modifierType: ModifierTypeTranslationEntries = {
     "ENEMY_ATTACK_SLEEP_CHANCE": { name: "Gettone del Sonno" },
     "ENEMY_ATTACK_FREEZE_CHANCE": { name: "Gettone del Congelamento" },
     "ENEMY_ATTACK_BURN_CHANCE": { name: "Gettone della Bruciatura" },
-    "ENEMY_STATUS_EFFECT_HEAL_CHANCE": { name: "Gettone Guarigione Completa", description: "Aggiunge una probabilità del 10% a ogni turno di curare una condizione di stato" },
+    "ENEMY_STATUS_EFFECT_HEAL_CHANCE": { name: "Gettone Guarigione Completa", description: "Aumenta del 10% la probabilità che ad ogni turno si curi una condizione di stato" },
     "ENEMY_ENDURE_CHANCE": { name: "Gettone di Resistenza" },
-    "ENEMY_FUSED_CHANCE": { name: "Gettone della fusione", description: "Aggiunge l'1% di possibilità che un Pokémon selvatico sia una fusione" },
+    "ENEMY_FUSED_CHANCE": { name: "Gettone della fusione", description: "Aumenta dell'1% la possibilità che un Pokémon selvatico sia una fusione" },
   },
   TempBattleStatBoosterItem: {
     "x_attack": "Attacco X",
